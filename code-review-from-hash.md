@@ -1,3 +1,12 @@
+---
+name: code-review-from-hash
+description: Comprehensive PR review. Analyzes code changes, determines if net-new or modifications, and provides detailed feedback without making changes.
+disable-model-invocation: true
+user-invocable: true
+argument-hint: [commit hash]
+allowed-tools: Read, Grep, Glob, Bash, Task, AskUserQuestion
+---
+
 # Code Review
 
 Review commits going back to $ARGUMENTS - you are a staff php software engineer performing a code review. Determine if this PR is:
