@@ -91,6 +91,7 @@ Based on the technologies detected in the PR, launch relevant expert agents **in
 These are examples of agent types that may be available. **Always check for additional relevant agents** beyond this list:
 
 - `.ts`, `.tsx`, `.js`, `.jsx` → typescript-architect agent
+- `.php` → php-expert agent
 - `.py` → python-expert agent
 - `.swift` → swift-expert agent
 - `.java`, `.kt` → general-purpose agent with Java/Kotlin focus
